@@ -5,7 +5,7 @@
 
 nav {
   top: 200px;
-  left: 51%;
+  left: 45%;
   text-align: right;
   height: 70%;
   overflow: scroll;
@@ -15,7 +15,15 @@ nav ul {
   padding-right: 15px;
 }
 
+.wrapper {
+  width: 800px;
+}
+
+section {
+  width: 715px
+}
+
 footer {
-  margin-left: 340px;
+  margin-left: 385px;
   text-align: left;
 }
