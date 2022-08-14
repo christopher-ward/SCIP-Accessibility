@@ -11,10 +11,6 @@ header p {
   background-color: rgb(45, 80, 123);
 }
 
-#banner {
-  
-}
-
 nav {
   top: 200px;
   left: 45%;
@@ -38,4 +34,9 @@ section {
 footer {
   margin-left: 385px;
   text-align: left;
+}
+
+footer p a {
+  color: #25476A;
+  background-color: #ECEADA;
 }
