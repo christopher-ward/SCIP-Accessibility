@@ -49,7 +49,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 ### Found in Google Chrome Lighthouse
 - Google Chrome Lighthouse is usually my first glance to quickly get a sense of what's going on in my webpage because I don't have to go to another site, let alone another browser, since I'm viewing my webpages on google chrome. It can test for many different aspects of how a website was put together and its presentation to the user. It shares some parallels with other browsers' internal testing features.
   - Below is an example of all that Lighthouse can scan for, not just Accessibility, using the mobile version of the Home Page for reference.
-  - ![Performance Score: 47, Accessibility Score: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](media/Tll3lEE24-clipboard.png)
+  - ![Performance Score: 47, Accessibility Score: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](Tll3lEE24-clipboard.png)
   - We will just be focusing on the Accessibility portion, but the other information is interesting to learn about and may be worth a look, however it is easy to get lost down a rabbit hole with much of the information.
   - The performance score is most likely due to the internal functions and practices of WordPress and mostly out of your control, however making sure that the mobile versions of your pages have images that are reduced in size accordingly will also increase the performance on mobile.
 
@@ -57,44 +57,40 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The color contrast ratios between the text color and background color of most of the links are too low.
 - The following is a gif showing examples of the color contrast issues for the link text found in Chrome Lighthouse.
   - This specific page is the home page, but the light yellow text with white background links, and sometimes the inverse, are on every page.
-  - **Link**
-  - [View gif of Home page scan on separate page - PDF Version will open gif in default browser]()
+  - [View gif of Home page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/ECjDiXD03-Home_Accessibility_Color_Contrast.gif)
 
 ![The scan shows the contrasts of the links on the home page are insufficient](media/ECjDiXD03-Home_Accessibility_Color_Contrast.gif)
 - Below is a gif of the Lighthouse result for the mobile version of the Home page with similar notes on link color contrast.
   - The following gif shows the same color contrasts noted in the previous scan, just in the mobile version this time
-  - [ ] **Link**
-  - [View gif of Mobile Home page scan on separate page - PDF Version will open gif in default browser]()
+  - [View gif of Mobile Home page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/hgbGShFAK-Home_Accessibility_Color_Contrast_Mobile.gif)
 
 ![The scan shows the contrasts of the links on the mobile version of the home page are insufficient, since they are the same](media/hgbGShFAK-Home_Accessibility_Color_Contrast_Mobile.gif)
 
 
 #### About Page Color Contrast and Heading Elements
 - For the About Page, it is also Color Contrast that is highlighted by the Lighthouse scan.
-  - [ ] **Link**
-  - [View gif of About page scan on separate page - PDF Version will open gif in default browser]()
-- ![Lighthouse scan of about page shows the color contrasts of the links are insufficient](media/GVfHXo_sh-About_Accessibility_Chrome.gif)
+  - [View gif of About page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/GVfHXo_sh-About_Accessibility_Chrome.gif)
+
+![Lighthouse scan of about page shows the color contrasts of the links are insufficient](media/GVfHXo_sh-About_Accessibility_Chrome.gif)
 - The sequence of headings on the page is noted at the end of the above gif.
   - The second gif, found below, shows the information in the dropdown.
   - The jump to h6 headings out of sequence in the About page is shown in the gif below. Using headings in relevant sequential order improves the clarity of the page structure.
   - I also discuss the headings in further detail later in the screen reader subsection.
-    - [ ] **Link**
-    - [View second gif of About page scan, relating to headings, on separate page - PDF Version will open gif in default browser]()
-- ![Second half of scan results of about page show the heading elements are not in sequential order](media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif)
+    - [View second gif of About page scan, relating to headings, on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif)
+
+![Second half of scan results of about page show the heading elements are not in sequential order](media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif)
 
 #### Research Page
 - The Research Page in Mobile view has results similar to the desktop view, so I am only showing the mobile version results for sake of brevity.
 - The color contrast is only mentioned for the menu button because it is hiding the other nav links that are shown when the button is touched
   - The below gif shows just the contrast mentioned
   - A Navigation comment from Chrome, seen in this first gif, is expanded on in the second gif
-  - [ ] **Link**
-- [View gif of Research page scan on separate page - PDF Version will open gif in default browser]()
+- [View gif of Research page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/4fsRExnA8-Research_Access_Contrast_Chrome_Mobile.gif)
 
-- ![Research page mobile menu color contrast is highlighted, same as the links that would drop down](media/4fsRExnA8-Research_Access_Contrast_Chrome_Mobile.gif)
-  - [ ] **Link**
-- [View second gif of mobile Research page scan on separate page - PDF Version will open gif in default browser]()
+![Research page mobile menu color contrast is highlighted, same as the links that would drop down](media/4fsRExnA8-Research_Access_Contrast_Chrome_Mobile.gif)
+- [View second gif of mobile Research page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/uhBupEq5k-Research_Access_Navigation_Chrome_Mobile.gif)
 
-    - ![The second half of the mobile version Research Page scan highlights an out of sequence h4 element](media/uhBupEq5k-Research_Access_Navigation_Chrome_Mobile.gif)
+![The second half of the mobile version Research Page scan highlights an out of sequence h4 element](media/uhBupEq5k-Research_Access_Navigation_Chrome_Mobile.gif)
   - Headings jump to h4 element from h1 element "Research"
     - headings should be sequential and define the relative structure of the information of the page
     - You can always just change the font size of the relevant heading element to match the desired font size
@@ -104,9 +100,8 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Fellowship Page
   - The Fellowship page generally had the same highlights in regards to the links' color contrasts as previously noted from scans of previous pages.
     - The below gif shows the nav bar and 'apply now' button contrast warnings
-    - [ ] **Link**
-    - [View gif of Fellowship page scan on separate page - PDF Version will open gif in default browser]()
-- ![The Fellowship page scan highlights the same insufficient color contrasts as previous pages](media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
+    - [View gif of Fellowship page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
+![The Fellowship page scan highlights the same insufficient color contrasts as previous pages](media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
 
 ### Found in Firefox Inspector
 - Firefox Inspector Accessibility Properties accomplishes many of the same functions as Chrome's built-in tester, just presenting them in a different way and with some different insight. The two can complement each other well. In the scans, the tester brought attention to many of the same things as Chrome. For this reason I only list a few with some clarified details.
@@ -152,8 +147,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - Submit Application
       - Contact Us
     - Below is a gif displaying the elements described above with the current focus
-    - [ ] **Add link**
-    - [View gif of clickable element focus page scan on separate page - PDF Version will open gif in default browser]()
+    - [View gif of clickable element focus page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/0KmHj5n2H-Elements_Focus_Visual_Aid.gif)
 
 ![The :focus tool in DevTools is used to display the visual focus of an element navigated to by keyboard, specifically links in this example - the current visual focus, especially in elements with low contrast and where focus is not visible, may not be adequate for sighted users with reduced vision](media/0KmHj5n2H-Elements_Focus_Visual_Aid.gif)
 
@@ -307,9 +301,8 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### How To
 #### Chrome DevTools
-- [ ] [**WILL NEED TO FIX LINK. GH LINK BROKEN**]
 - Below is a gif that will show how to access the Chrome DevTools in the [Google Chrome browser](https://www.google.com/chrome/downloads/)
-- [View gif of Google Chrome DevTools - PDF Version will open gif in default browser]()
+- [View gif of Google Chrome DevTools - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif)
 
 ![how_to_access_devtools_and_inspect_specific_elements_comp_40.gif](media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif)
 - The Chrome DevTools can be accessed by right clicking anywhere on the page and selecting "Inspect"
@@ -338,10 +331,10 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - Any property that is associated with a selected element while in the DevTool menu will be displayed in "Styles"
 
 #### Chrome DevTools Lighthouse
-- [ ] [**WILL NEED TO FIX LINK. GH LINK BROKEN**]
 - Below is a gif on how to access Lighthouse in the Chrome DevTools in Google Chrome
-- [View gif of Chrome DevTools Lighthouse scanner - PDF Version will open gif in default browser]()
-  ![Google Chrome Lighthouse scan can test the Performance, Accessibility, Search Engine Optimization, Best Practices, and Progressive Web App, if relevant, and each category can be selected or unselected - a score for each is provided as well as examples and explanations](media/yJesrsUMy-how_to_access_lighthouse_scan_comp_25.gif)
+- [View gif of Chrome DevTools Lighthouse scanner - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/yJesrsUMy-how_to_access_lighthouse_scan_comp_25.gif)
+
+![Google Chrome Lighthouse scan can test the Performance, Accessibility, Search Engine Optimization, Best Practices, and Progressive Web App, if relevant, and each category can be selected or unselected - a score for each is provided as well as examples and explanations](media/yJesrsUMy-how_to_access_lighthouse_scan_comp_25.gif)
 - Access the Lighthouse scanner by opening Chrome DevTools and clicking the "Lighthouse" tab at the top of the open DevTools Dock
   - It may be hidden on your view of the DevTools and can be accessed by first clicking the double arrows ">>" next the available options e.g. "Elements", "Console", etc.
     - You should then see an option for "Lighthouse" from a dropdown menu
@@ -350,9 +343,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - You can find additional information on [Google's Lighthouse Overview documentation](https://developer.chrome.com/docs/lighthouse/overview/).
 
 #### Chrome DevTools Mobile Responsiveness Simulation AKA "Device Mode"
-- [ ] [**WILL NEED TO ADD LINK**]
 - Below is a gif of how to access the Chrome DevTools Device Mode tool on Google Chrome
-- [View gif of Chrome DevTools "Device Mode" - PDF Version will open gif in default browser]()
+- [View gif of Chrome DevTools "Device Mode" - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/9TxytjC_K-Chrome_Mobile_Responsiveness_compressed.gif)
+
 !["Device Mode" of the Chrome DevTools is used to simulate views of the website in multiple mobile device types and orientations - Responsive mode can be used to find exactly where the breakpoints are for custom media queries in custom css styling](media/9TxytjC_K-Chrome_Mobile_Responsiveness_compressed.gif)
 - Device Mode can be accessed from the Chrome DevTools menu by clicking the device toggle button at the top left of the menu that looks like two overlapping rectangles
   - After activating, I put the DevTools in separate window mode, and on a second screen, to more easily focus on the mobile view of the site.
@@ -371,10 +364,10 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - There is a very similar option in Firefox and easy to access once you know how to access it in Google Chrome
 
 #### Firefox Developer Tools and Accessibility
-- [ ] [**WILL NEED TO FIX LINK. GH LINK BROKEN**]
 - Below is a gif of how to access the Firefox Developer Tools and Accessibility menu on the [Mozilla Firefox Browser](https://www.mozilla.org/en-US/firefox/)
-- [View gif of Firefox Inspector and its Accessibility panel - PDF Version will open gif in default browser]()
-  ![The Accessibility panel of FireFox Inspector is accessed using the instructions below and scans can be done to check for multiple accessibility opportunities - There is also a color blindness simulator showing what the webpage looks like for viewers with various types of color blindness.](media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif)
+- [View gif of Firefox Inspector and its Accessibility panel - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif)
+
+![The Accessibility panel of FireFox Inspector is accessed using the instructions below and scans can be done to check for multiple accessibility opportunities - There is also a color blindness simulator showing what the webpage looks like for viewers with various types of color blindness.](media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif)
 - Firefox Developer Tools, Accessibility Panel
   - To open you can right click and select "Inspect", just like in Chrome.
     - You can also use a slightly different key shortcut:
@@ -391,8 +384,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - WordPress automatically makes anchor elements, aka links, "tabbable" when constructed using the software.
         - This being the case, all of the links in the SCIP website can be navigated to by keyboard
       - Below is a gif showing an example of the above described "Show Tabbing Order" feature starting in the middle of the Home page.
-      - [View gif of "Show Tabbing Order" feature of Firefox's DevTools Accessibility panel - PDF Version will open gif in default browser]()
-        - [ ] **ADD LINK**
+      - [View gif of "Show Tabbing Order" feature of Firefox's DevTools Accessibility panel - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/kJ1piGFi9-Firefox_Inspector_Accessibility_Tabbing_Order.gif)
 
 ![The Firefox Inspector Accessibility panel has a "Show Tabbing Order" option available next to the color blindness simulator option. Clicking this option will place boxes around all elements that can be navigated to by pressing the tab button on the keyboard along with the elements associated numerical order on the page](media/kJ1piGFi9-Firefox_Inspector_Accessibility_Tabbing_Order.gif)
    - The Firefox Inspector can also display a simulated view of various mobile versions of a site just like in Chrome DevTools, with a slightly different User Interface
@@ -416,8 +408,8 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) is a great tool to quickly troubleshoot color combinations that will work best for your needs while still meeting WCAG contrast ratio recommendations.
 - You can see a color contrast ratio in developer tools, but not as easy to use or as fleshed out.
 - The Contrast Checker tool is also built into the WAVE tool described above and can explore various color combinations directly on your webpage through the WAVE interface.
-- [ ] **Needs Link**
-[View gif of WebAIM Contrast Checker in use - PDF Version will open gif in default browser]()
+[View gif of WebAIM Contrast Checker in use - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/gaPFksDYP-WebAIM_Contrast_Checker.gif)
+
 ![Use WebAIM Contrast Checker tool to find foreground color and background color combination that passes WCAG standards using slider tool to incrementally change color and a color picker tool as well - provides Contrast Ratio and pass or fail WCAG AA and WCAG AAA for multiple situations considered by WCAG standards](media/gaPFksDYP-WebAIM_Contrast_Checker.gif)
 
 #### Screen Readers
