@@ -101,6 +101,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - The Fellowship page generally had the same highlights in regards to the links' color contrasts as previously noted from scans of previous pages.
     - The below gif shows the nav bar and 'apply now' button contrast warnings
     - [View gif of Fellowship page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
+
 ![The Fellowship page scan highlights the same insufficient color contrasts as previous pages](media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
 
 ### Found in Firefox Inspector
@@ -316,18 +317,22 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The "Styles" pane at the bottom of the DevTools, or right side depending on how the DevTools are docked to your page, shows what styling is being applied to a selected element.
   - These styles are written in a language known as CSS.
     - The styles can be found in a style element in the main HTML document of a webpage like so:
+    
     ```HTML
      <style>
        h2 {
          property-to-modify: value;
        }
      </style>
-     ```
+    ```
+    
     - They can also be in a separate attached stylesheet that ends with .css
     - Or you can see inline styles attached directly to the HTML element, like so:
+    
     ```HTML
       <h2 style="property: value;">Inline Styled H2 Heading Element</h2>
     ```
+    
   - Any property that is associated with a selected element while in the DevTool menu will be displayed in "Styles"
 
 #### Chrome DevTools Lighthouse
