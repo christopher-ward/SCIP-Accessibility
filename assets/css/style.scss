@@ -24,11 +24,11 @@ nav ul {
 }
 
 .wrapper {
-  width: 800px;
+  max-width: 750px;
 }
 
 section {
-  width: 715px
+  max-width: 690px
 }
 
 footer {
@@ -39,4 +39,11 @@ footer {
 footer p a {
   color: #25476A;
   background-color: #ECEADA;
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
