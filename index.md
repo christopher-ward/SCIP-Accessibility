@@ -115,6 +115,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - Hints on how to improve the score are also mentioned in the "Steps Taken" section, as well as the "Steps to Take in Future" section in the "How To" subsection, using some of the tools discussed.
 
 - ![The links on every page with the specific shade of yellow text foreground and white background had the color contrast ratio of 2.04. This falls below WCAG standards](media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
+- [View link contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
 - The few links with the inverse of these foreground and background colors, for example the "Apply Now..." link at the top of the Fellowship page, also have an identical ratio of 2.04 but is not shown here.
 - These links may be hard for some users to see clearly.
 
@@ -122,6 +123,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The following screenshot is from the score given for the color contrast ratio of the search bar at the top right of each page. As with the above link text color, this low score also indicates the content may be hard to see for some users.
 
 - ![The search bar at the top of each page has the contrast of 2.54, falling below WCAG standards](media/c9UN6DAsu-clipboard.png)
+- [View search bar contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
 #### More From Firefox Inspector
 - As mentioned earlier, the inspector will show the semantic structure of the webpage. More on semantic structuring is mentioned in the Screen Readers subsection.
   - A gif of how to access this feature is shown in the "Steps to Take in Future" section, in the "How To" subsection.
@@ -148,7 +150,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - Submit Application
       - Contact Us
     - Below is a gif displaying the elements described above with the current focus
-    - [View gif of clickable element focus page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/0KmHj5n2H-Elements_Focus_Visual_Aid.gif)
+    - [View gif of interactive element focus tool on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/0KmHj5n2H-Elements_Focus_Visual_Aid.gif)
 
 ![The :focus tool in DevTools is used to display the visual focus of an element navigated to by keyboard, specifically links in this example - the current visual focus, especially in elements with low contrast and where focus is not visible, may not be adequate for sighted users with reduced vision](media/0KmHj5n2H-Elements_Focus_Visual_Aid.gif)
 
@@ -188,13 +190,13 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - I created a quick intro video to describe how the screen reader is used and what to look for and consider.
   - This video can be found below
   - [SCIP - Screen Reader Intro](https://www.loom.com/share/e25e779e70c64b86a4472d432595e615)
-  
+
 <div style="position: relative; padding-bottom: 72.12885154061624%; height: 0;"><iframe src="https://www.loom.com/embed/e25e779e70c64b86a4472d432595e615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### Home / Landing Page
 - The video below provides a Full Read of the Home Page as described in the intro video. **Caution**, the Screen Reader starts at **0:13** and will be **much louder** than my voice at the beginning.
   - [Home Page Full Screen Reading (NVDA) [**LOUD after 0:13**]](https://www.loom.com/share/0f793793c6f74cb496855693a1aeaf17)
-    
+
 <div style="position: relative; padding-bottom: 64.6888567293777%; height: 0;"><iframe src="https://www.loom.com/embed/0f793793c6f74cb496855693a1aeaf17" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - The video shows the Screen Reader reading through the Home Page to give an idea of how a screen reader will walk through a page and how it describes the elements. A user may also skip around the page using hotkeys specific to the screen reader but this first video is meant to paint the full picture of the page.
@@ -204,7 +206,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### About Page
 - The video below will include discussion of headings on the About page and the screen reader’s interaction with them.
   - [SCIP – About Page - Headings Discussion [**LOUD after 0:07**]](https://www.loom.com/share/e6c7574c900f4c69940a26912b7f655a)
-  
+
 <div style="position: relative; padding-bottom: 63.817663817663814%; height: 0;"><iframe src="https://www.loom.com/embed/e6c7574c900f4c69940a26912b7f655a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - In the video, the "Team" section is highlighted
@@ -216,7 +218,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Research Page
 - The discussion about the Screen Readers interpretation of the Research Page and some potential enhancements can be found in the following video
   - [SCIP - Research Page - Headings and Information Sectioning](https://www.loom.com/share/cdaebdc934e5449dbff6b4288580566a)
-  
+
 <div style="position: relative; padding-bottom: 61.016949152542374%; height: 0;"><iframe src="https://www.loom.com/embed/cdaebdc934e5449dbff6b4288580566a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - The video highlights:
@@ -233,7 +235,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Fellowship Page
 - The video below contains discussion about the Fellowship Page screen reading experience and potential opportunities for enhancement
   - [SCIP - Fellowship Page - Heading Structure](https://www.loom.com/share/dc002c9fdd9f4982b798796534d4fb69)
-  
+
 <div style="position: relative; padding-bottom: 68.06136680613668%; height: 0;"><iframe src="https://www.loom.com/embed/dc002c9fdd9f4982b798796534d4fb69" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - The video highlights:
@@ -247,7 +249,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Footer Navigation
 - The video below features a discussion about the potential benefits of adding a Footer Navigation
   - [SCIP - Footer Discussion](https://www.loom.com/share/68ea61809a1345738bc987f0ee1d7595)
-  
+
 <div style="position: relative; padding-bottom: 69.90291262135922%; height: 0;"><iframe src="https://www.loom.com/embed/68ea61809a1345738bc987f0ee1d7595" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - In the above video, I suggest the opportunity for a footer navigation
@@ -316,7 +318,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - Below is a gif that will show how to access the Chrome DevTools in the [Google Chrome browser](https://www.google.com/chrome/downloads/)
 - [View gif of Google Chrome DevTools - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif)
 
-![how_to_access_devtools_and_inspect_specific_elements_comp_40.gif](media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif)
+![Google Chrome DevTools shows the HTML elements of a page as well as all the code associated with the page - It can be accessed by multiple different means and has many helpful features to help understand how a webpage is presented to a user, as well as ways to preview quick changes to the code](media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif)
 - The Chrome DevTools can be accessed by right clicking anywhere on the page and selecting "Inspect"
   - Can also be accessed by pressing Command + Option + C on Mac keyboard or Control + Shift + C on Windows, Linux
   - Other methods and more information can be found [here on Google's Open Chrome DevTools page](https://developer.chrome.com/docs/devtools/open/)
@@ -328,7 +330,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The "Styles" pane at the bottom of the DevTools, or right side depending on how the DevTools are docked to your page, shows what styling is being applied to a selected element.
   - These styles are written in a language known as CSS.
     - The styles can be found in a style element in the main HTML document of a webpage like so:
-    
+
     ```HTML
      <style>
        h2 {
@@ -336,14 +338,14 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
        }
      </style>
     ```
-    
+
     - They can also be in a separate attached stylesheet that ends with .css
     - Or you can see inline styles attached directly to the HTML element, like so:
-    
+
     ```HTML
       <h2 style="property: value;">Inline Styled H2 Heading Element</h2>
     ```
-    
+
   - Any property that is associated with a selected element while in the DevTool menu will be displayed in "Styles"
 
 #### Chrome DevTools Lighthouse
@@ -415,7 +417,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The information is organized and presented in a very convenient and clear manner.
 - The video below provides a short demo of how to use the tool and what is displayed.
 - [WebAIM Web Accessibility Evaluation Tool Demo](https://www.loom.com/share/7e130b24e0554bf190fc92c187f4d79a)
-  
+
 <div style="position: relative; padding-bottom: 73.77049180327869%; height: 0;"><iframe src="https://www.loom.com/embed/7e130b24e0554bf190fc92c187f4d79a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - There is also a browser extension that can be installed to evaluate your webpage locally on your computer.
