@@ -124,7 +124,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The following screenshot is from the score given for the color contrast ratio of the search bar at the top right of each page. As with the above link text color, this low score also indicates the content may be hard to see for some users.
 
 - ![The search bar at the top of each page has the contrast of 2.54, falling below WCAG standards](media/c9UN6DAsu-clipboard.png)
-- [View search bar contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
+- [View search bar contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/c9UN6DAsu-clipboard.png)
 #### More From Firefox Inspector
 - As mentioned earlier, the inspector will show the semantic structure of the webpage. More on semantic structuring is mentioned in the Screen Readers subsection.
   - A gif of how to access this feature is shown in the "Steps to Take in Future" section, in the "How To" subsection.
