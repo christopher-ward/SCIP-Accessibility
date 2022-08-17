@@ -48,8 +48,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### Found in Google Chrome Lighthouse
 - Google Chrome Lighthouse is usually my first glance to quickly get a sense of what's going on in my webpage because I don't have to go to another site, let alone another browser, since I'm viewing my webpages on google chrome. It can test for many different aspects of how a website was put together and its presentation to the user. It shares some parallels with other browsers' internal testing features.
-  - Below is an example of all that Lighthouse can scan for, not just Accessibility, using the mobile version of the Home Page for reference.
-  - ![Performance Score: 47, Accessibility Score: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](media/Tll3lEE24-clipboard.png)
+  - Below is an example of all that Lighthouse can scan for, not just Accessibility, with an associated score using the mobile version of the Home Page for reference.
+  - ![Performance: 47, Accessibility: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](media/Tll3lEE24-clipboard.png)
+  - [View image of Lighthouse results on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Tll3lEE24-clipboard.png)
   - We will just be focusing on the Accessibility portion, but the other information is interesting to learn about and may be worth a look, however it is easy to get lost down a rabbit hole with much of the information.
   - The performance score is most likely due to the internal functions and practices of WordPress and mostly out of your control, however making sure that the mobile versions of your pages have images that are reduced in size accordingly will also increase the performance on mobile.
 
