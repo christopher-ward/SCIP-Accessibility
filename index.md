@@ -188,20 +188,25 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - I created a quick intro video to describe how the screen reader is used and what to look for and consider.
   - This video can be found below
   - [SCIP - Screen Reader Intro](https://www.loom.com/share/e25e779e70c64b86a4472d432595e615)
-  <div style="position: relative; padding-bottom: 72.12885154061624%; height: 0;"><iframe src="https://www.loom.com/embed/e25e779e70c64b86a4472d432595e615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  
+<div style="position: relative; padding-bottom: 72.12885154061624%; height: 0;"><iframe src="https://www.loom.com/embed/e25e779e70c64b86a4472d432595e615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### Home / Landing Page
 - The video below provides a Full Read of the Home Page as described in the intro video. **Caution**, the Screen Reader starts at **0:13** and will be **much louder** than my voice at the beginning.
   - [Home Page Full Screen Reading (NVDA) [**LOUD after 0:13**]](https://www.loom.com/share/0f793793c6f74cb496855693a1aeaf17)
-    <div style="position: relative; padding-bottom: 64.6888567293777%; height: 0;"><iframe src="https://www.loom.com/embed/0f793793c6f74cb496855693a1aeaf17" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-  - The video shows the Screen Reader reading through the Home Page to give an idea of how a screen reader will walk through a page and how it describes the elements. A user may also skip around the page using hotkeys specific to the screen reader but this first video is meant to paint the full picture of the page.
-  - I had previously made a video talking about the benefits of adding a “Home” button to the navigation bar, but noticed that it has already been added since I started.
-      - Adding a "Home" link in the navigation bar was definitely a good choice to benefit all users
+    
+<div style="position: relative; padding-bottom: 64.6888567293777%; height: 0;"><iframe src="https://www.loom.com/embed/0f793793c6f74cb496855693a1aeaf17" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+- The video shows the Screen Reader reading through the Home Page to give an idea of how a screen reader will walk through a page and how it describes the elements. A user may also skip around the page using hotkeys specific to the screen reader but this first video is meant to paint the full picture of the page.
+- I had previously made a video talking about the benefits of adding a “Home” button to the navigation bar, but noticed that it has already been added since I started.
+    - Adding a "Home" link in the navigation bar was definitely a good choice to benefit all users
 
 #### About Page
 - The video below will include discussion of headings on the About page and the screen reader’s interaction with them.
   - [SCIP – About Page - Headings Discussion [**LOUD after 0:07**]](https://www.loom.com/share/e6c7574c900f4c69940a26912b7f655a)
-  <div style="position: relative; padding-bottom: 63.817663817663814%; height: 0;"><iframe src="https://www.loom.com/embed/e6c7574c900f4c69940a26912b7f655a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  
+<div style="position: relative; padding-bottom: 63.817663817663814%; height: 0;"><iframe src="https://www.loom.com/embed/e6c7574c900f4c69940a26912b7f655a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 - In the video, the "Team" section is highlighted
   - I suggest that a new heading level under team member names is unnecessary
     - If keeping additional heading level, it should change to h4, instead of keeping as h6, and modify the font size to get the desired h6 font size
@@ -211,53 +216,59 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Research Page
 - The discussion about the Screen Readers interpretation of the Research Page and some potential enhancements can be found in the following video
   - [SCIP - Research Page - Headings and Information Sectioning](https://www.loom.com/share/cdaebdc934e5449dbff6b4288580566a)
-  <div style="position: relative; padding-bottom: 61.016949152542374%; height: 0;"><iframe src="https://www.loom.com/embed/cdaebdc934e5449dbff6b4288580566a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-  - The video highlights:
-    - Recommendation of additional headings that could help improve the overall flow and navigability of the Research webpage
-    - Changing the h4 blocks at the end of the page to different element types
-      - The block information shouldn't be a heading element
-      - Recommend a short heading to describe the information instead
-      - Recommend change the h4 blocks to paragraph elements
-        - Can keep the size and colors if desired but shouldn't be headings
-          - Headings should be concise and signal related information to follow
-            - It helps screen reader users
-              - Also improves flow of webpage
+  
+<div style="position: relative; padding-bottom: 61.016949152542374%; height: 0;"><iframe src="https://www.loom.com/embed/cdaebdc934e5449dbff6b4288580566a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+- The video highlights:
+  - Recommendation of additional headings that could help improve the overall flow and navigability of the Research webpage
+  - Changing the h4 blocks at the end of the page to different element types
+    - The block information shouldn't be a heading element
+    - Recommend a short heading to describe the information instead
+    - Recommend change the h4 blocks to paragraph elements
+      - Can keep the size and colors if desired but shouldn't be headings
+        - Headings should be concise and signal related information to follow
+          - It helps screen reader users
+            - Also improves flow of webpage
 
 #### Fellowship Page
 - The video below contains discussion about the Fellowship Page screen reading experience and potential opportunities for enhancement
   - [SCIP - Fellowship Page - Heading Structure](https://www.loom.com/share/dc002c9fdd9f4982b798796534d4fb69)
-  <div style="position: relative; padding-bottom: 68.06136680613668%; height: 0;"><iframe src="https://www.loom.com/embed/dc002c9fdd9f4982b798796534d4fb69" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-  - The video highlights:
-    - Opportunity for h3 subheadings on the Fellowship page
-      - Clarification of subsections of information within the "Fellowship Goals & Commitments" section of the Fellowship Page
-        - Specifically, making the one word bolded titles, i.e. "Training", "Evaluation", and "Podcasts" into h3 headings
-          - This can improve the experience of screen reader users
-          - Can keep bolded and slightly increase size
-            - Will help group the information better and improve page flow for all users
+  
+<div style="position: relative; padding-bottom: 68.06136680613668%; height: 0;"><iframe src="https://www.loom.com/embed/dc002c9fdd9f4982b798796534d4fb69" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+- The video highlights:
+  - Opportunity for h3 subheadings on the Fellowship page
+    - Clarification of subsections of information within the "Fellowship Goals & Commitments" section of the Fellowship Page
+      - Specifically, making the one word bolded titles, i.e. "Training", "Evaluation", and "Podcasts" into h3 headings
+        - This can improve the experience of screen reader users
+        - Can keep bolded and slightly increase size
+          - Will help group the information better and improve page flow for all users
 
 #### Footer Navigation
 - The video below features a discussion about the potential benefits of adding a Footer Navigation
   - [SCIP - Footer Discussion](https://www.loom.com/share/68ea61809a1345738bc987f0ee1d7595)
-  <div style="position: relative; padding-bottom: 69.90291262135922%; height: 0;"><iframe src="https://www.loom.com/embed/68ea61809a1345738bc987f0ee1d7595" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-  - In the above video, I suggest the opportunity for a footer navigation
-    - The case is made for the addition of internal links within the footer at the bottom of each page
-      - These internal links would act the same as the links in the header navigation at the top of each page
-        - Reader would be able to easily move to anywhere else in the site at the end of each page.
-          - Helpful for users that use a Screen Reader, and also users that are not
-          - Would keep the reader engaged and reminded of the structure of the site
-    - Additional external links could also be added
-      - Some examples:
-        - Ways for readers to reach out or help
-        - Fellowship Application Link
-          - In case the user decides to apply when not on the fellowship page
-        - Social Media if relevant
-        - Podcast Link when available
-        - Other related projects
-        - Other URI links if desired
-        - Additional Relevant Information
-        - Accessibility Statement or link to an Accessibility Statement
-    - The addition of some form of site navigation in the footer of each page would greatly increase ease of use of the site
-      - Users of all types, including screen reader users would benefit
+  
+<div style="position: relative; padding-bottom: 69.90291262135922%; height: 0;"><iframe src="https://www.loom.com/embed/68ea61809a1345738bc987f0ee1d7595" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+- In the above video, I suggest the opportunity for a footer navigation
+  - The case is made for the addition of internal links within the footer at the bottom of each page
+    - These internal links would act the same as the links in the header navigation at the top of each page
+      - Reader would be able to easily move to anywhere else in the site at the end of each page.
+        - Helpful for users that use a Screen Reader, and also users that are not
+        - Would keep the reader engaged and reminded of the structure of the site
+  - Additional external links could also be added
+    - Some examples:
+      - Ways for readers to reach out or help
+      - Fellowship Application Link
+        - In case the user decides to apply when not on the fellowship page
+      - Social Media if relevant
+      - Podcast Link when available
+      - Other related projects
+      - Other URI links if desired
+      - Additional Relevant Information
+      - Accessibility Statement or link to an Accessibility Statement
+  - The addition of some form of site navigation in the footer of each page would greatly increase ease of use of the site
+    - Users of all types, including screen reader users would benefit
 
 
 ### Accessibility Statement
@@ -404,7 +415,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The information is organized and presented in a very convenient and clear manner.
 - The video below provides a short demo of how to use the tool and what is displayed.
 - [WebAIM Web Accessibility Evaluation Tool Demo](https://www.loom.com/share/7e130b24e0554bf190fc92c187f4d79a)
-  <div style="position: relative; padding-bottom: 73.77049180327869%; height: 0;"><iframe src="https://www.loom.com/embed/7e130b24e0554bf190fc92c187f4d79a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  
+<div style="position: relative; padding-bottom: 73.77049180327869%; height: 0;"><iframe src="https://www.loom.com/embed/7e130b24e0554bf190fc92c187f4d79a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 - There is also a browser extension that can be installed to evaluate your webpage locally on your computer.
   - No need to have webpage deployed online
   - More information and possible benefits are provided at [Wave WebAIM Extension documentation](https://wave.webaim.org/extension/)
