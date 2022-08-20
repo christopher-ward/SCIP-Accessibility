@@ -24,11 +24,12 @@ nav ul {
 }
 
 .wrapper {
+  width: auto;
   max-width: 750px;
 }
 
 section {
-  max-width: 690px
+  width: auto;
 }
 
 footer {
@@ -51,6 +52,7 @@ footer p a {
 @media screen and (max-width: 1060px) {
   div.wrapper {
     width: auto;
+    margin: 0 auto;
   }
   
   section {
