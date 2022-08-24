@@ -119,7 +119,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - This score falls below [WCAG standards](https://webaim.org/articles/contrast/){:target="_blank" rel="noopener"}
   - The score can be improved by adjusting the colors to have a stronger contrast
     - The colors can be found in the WordPress editor as well as the DevTools
-    - Hints on how to improve the score are also mentioned in the "Steps Taken" section, as well as the "Steps to Take in Future" section in the "How To" subsection, using some of the tools discussed.
+    - Hints on how to improve the score are also mentioned in the "Steps Taken" section, as well as the "Steps to Take in Future" section, using some of the tools discussed.
 
 - ![The links on every page with the specific shade of yellow text foreground and white background had the color contrast ratio of 2.04. This falls below WCAG standards](media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
 - [View link contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/5aMSHvSPi-Link_Text_Color_Contrast.PNG){:target="_blank" rel="noopener"}
@@ -134,7 +134,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 #### More From Firefox Inspector
 - As mentioned earlier, the inspector will show the semantic structure of the webpage. More on semantic structuring is mentioned in the Screen Readers subsection.
-  - A gif of how to access this feature is shown in the "Steps to Take in Future" section, in the "How To" subsection.
+  - A gif of how to access this feature is shown in the "Steps to Take in Future" section.
 - Text labels, or alt text, for programmatic functions, figures or images are necessary for visually impaired individuals.
   - Except for situations where the image does not provide important context for the information being presented, such as an image of an individual in a Bio; or if a thorough description of the image/gif/graphic is provided immediately before or after the image.
   - When an image contains key information for the viewer, determine if concise alt text should be applied to the image properties for screen readers to relay important information to the user
@@ -321,8 +321,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - The section also includes some key links to resources
 - Media are also included in this section to show how to access the various tools
 
-### How To
-#### Chrome DevTools
+### Chrome DevTools
 - Below is a gif that will show how to access the Chrome DevTools in the [Google Chrome browser](https://www.google.com/chrome/downloads/){:target="_blank" rel="noopener"}
 - [View gif of Google Chrome DevTools - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/yfn48lNNN-how_to_access_devtools_and_inspect_specific_elements_comp_40.gif){:target="_blank" rel="noopener"}
 
@@ -356,7 +355,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
   - Any property that is associated with a selected element while in the DevTool menu will be displayed in "Styles"
 
-#### Chrome DevTools Lighthouse
+### Chrome DevTools Lighthouse
 - Below is a gif on how to access Lighthouse in the Chrome DevTools in Google Chrome
 - [View gif of Chrome DevTools Lighthouse scanner - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/yJesrsUMy-how_to_access_lighthouse_scan_comp_25.gif){:target="_blank" rel="noopener"}
 
@@ -368,7 +367,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - I kept some other options enabled here for illustrative purposes and can be informative to explore them as well
   - You can find additional information on [Google's Lighthouse Overview documentation](https://developer.chrome.com/docs/lighthouse/overview/){:target="_blank" rel="noopener"}.
 
-#### Chrome DevTools Mobile Responsiveness Simulation AKA "Device Mode"
+### Chrome DevTools Mobile Responsiveness Simulation AKA "Device Mode"
 - Below is a gif of how to access the Chrome DevTools Device Mode tool on Google Chrome
 - [View gif of Chrome DevTools "Device Mode" - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/9TxytjC_K-Chrome_Mobile_Responsiveness_compressed.gif){:target="_blank" rel="noopener"}
 
@@ -389,7 +388,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - The current version of the site is still viewable on most devices as shown in the above gif
 - There is a very similar option in Firefox and easy to access once you know how to access it in Google Chrome
 
-#### Firefox Developer Tools and Accessibility
+### Firefox Developer Tools and Accessibility
 - Below is a gif of how to access the Firefox Developer Tools and Accessibility menu on the [Mozilla Firefox Browser](https://www.mozilla.org/en-US/firefox/){:target="_blank" rel="noopener"}
 - [View gif of Firefox Inspector and its Accessibility panel - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif){:target="_blank" rel="noopener"}
 
@@ -418,7 +417,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
         - It is right next to the "Customize Developer Tools and Get Help" button shown as three dots in a horizontal line
    - More information about Firefox Developer Tools can be found in [the Firefox DevTools User Docs](https://firefox-source-docs.mozilla.org/devtools-user/#:~:text=You%20can%20open%20the%20Firefox,%2B%20Opt%20%2B%20I%20on%20macOS.){:target="_blank" rel="noopener"}
 
-#### WebAIM Web Accessibility Evaluation Tool
+### WebAIM Web Accessibility Evaluation Tool
 - [WAVE](https://wave.webaim.org/) is a very effective interactive tool for checking the overall accessibility of a webpage.
 - This tool is a great approach to understand accessibility opportunities in a webpage and to better understand their significance.
 - Has many of the same features as the browser tools, but in a better visual package and easier interaction.
@@ -432,7 +431,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - No need to have webpage deployed online
   - More information and possible benefits are provided at [Wave WebAIM Extension documentation](https://wave.webaim.org/extension/){:target="_blank" rel="noopener"}
 
-#### WebAIM Contrast Checker
+### WebAIM Contrast Checker
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank" rel="noopener"} is a great tool to quickly troubleshoot color combinations that will work best for your needs while still meeting WCAG contrast ratio recommendations.
 - You can see a color contrast ratio in developer tools, but not as easy to use or as fleshed out.
 - The Contrast Checker tool is also built into the WAVE tool described above and can explore various color combinations directly on your webpage through the WAVE interface.
@@ -440,7 +439,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ![Use WebAIM Contrast Checker tool to find foreground color and background color combination that passes WCAG standards using slider tool to incrementally change color and a color picker tool as well - provides Contrast Ratio and pass or fail WCAG AA and WCAG AAA for multiple situations considered by WCAG standards](media/gaPFksDYP-WebAIM_Contrast_Checker.gif)
 
-#### Screen Readers
+### Screen Readers
 - NonVisual Desktop Access (NVDA) created by [NV Access](https://www.nvaccess.org/){:target="_blank" rel="noopener"} was the screen reader used in this report
   - It is showcased in the previous "Opportunities Discovered" section under the "Screen Readers" subsection, as well as mentioned in the "Steps Taken" section
     - For this reason, in-depth descriptions of the screen reader are not provided in this subsection.
