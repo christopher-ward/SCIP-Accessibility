@@ -16,7 +16,7 @@ nav {
   left: 45%;
   text-align: right;
   height: 70%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ footer p a {
     width: auto;
     margin: 0 auto;
   }
-  
+
   section {
     max-width: 600px;
     padding: 25px;

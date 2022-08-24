@@ -3,9 +3,9 @@
 ## Introduction
 Leading production of your site with an accessibility first mindset creates a more richly and empathically functional end user experience overall. Continuously working to improve web accessibility is ultimately a way to ensure that as many people as possible are able to visit your site, no matter the physical or cognitive hurdle they may be experiencing.
 
-The idea that the overall accessibility of a website is the responsibility of the developer creating the website was something that hadn't initially occurred to me when first learning to code them. I was unaware of the needs of many users that are often overlooked. I was also unaware that these are ongoing issues. This drove a curiosity in me to learn more. After I started considering more and more about accessibility in my projects, planning projects with accessibility at the forefront has become easier and easier, and also rewarding. With ever increasing accessibility, comes richer functionality and smoother experience in the website. Also knowing that fewer roadblocks are left in place with each new accessibility minded endeavor and each new skill learned, leaves a more satisfying and complete feeling to the process of creating these digital spaces.
+The idea that the overall accessibility of a website is the responsibility of the developer creating the website was something that hadn't initially occurred to me when first learning to code them. I was unaware that the needs of many users are often overlooked, and that this is an ongoing issue in web development. This drove a curiosity in me to learn more. After I started considering more and more about accessibility in my projects, planning projects with accessibility at the forefront has become easier and easier, and also rewarding. With ever increasing accessibility, comes richer functionality and smoother experience in the website. Also knowing that fewer roadblocks are left in place with each new accessibility minded endeavor and each new skill learned, leaves a more satisfying and complete feeling to the process of creating these digital spaces.
 
-My aim with this document is to help shed some light on how to approach a project with an accessibility first mindset. And, at the very least, equip the reader with the tools to be able to approach any webpage, in particular the SciComm Identities Project website, and be able to evaluate it efficiently and effectively. I understand that the reader is most likely not going to be a programmer or professional web developer, but it is my hope that they are able to be effective at creating considerate and inclusive websites, nonetheless, with the help of this guide. And if it fuels curiosity for further learning, that's awesome!
+My aim with this document is to help shed some light on how to approach a project with an accessibility first mindset. And, at the very least, equip the reader with the tools to be able to approach any webpage, in particular the SciComm Identities Project (SCIP) website, and be able to evaluate it efficiently and effectively. I understand that the reader is most likely not going to be a programmer or professional web developer, but it is my hope that they are able to be effective at creating considerate and inclusive websites, nonetheless, with the help of this guide. And if it fuels curiosity for further learning, that's awesome!
 
 To begin, a list is presented to outline general steps that can be taken to consider the accessibility of a webpage. They don't necessarily need to be in this order, this is just one approach.
 
@@ -29,34 +29,40 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 3. I usually start in Chrome and then go to Firefox to utilize the Firefox Inspector's Accessibility checker to get another view from a different browser. The interface for the accessibility checker is also very helpful in Firefox. The Accessibility Properties of the Firefox Inspector tool shows the structure of the webpage through its semantic roles and how they relate. It also can check the font contrasts, keyboard navigability, and text label clarity of a webpage. It also can simulate various forms of color blindness and how users with those types of vision may see the content of the page. There are multiple built in tools in the browser to get an initial understanding of how accessible your pages are to other users.
 
-4. I will also use the [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank" rel="noopener"} to help find more accessible matches for background and foreground when the need arises. However, on the fly, the browser devtools color picker tool will usually provide a helpful WCAG score for the background / foreground color combination. As I describe later, this tool is also integrated into the WAVE Web Accessibility Evaluation Tool suite.
+4. I will also use the [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank" rel="noopener"} to help find more accessible matches for background and foreground when the need arises. However, on the fly, the browser devtools color picker tool will usually provide a helpful [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/){:target="_blank" rel="noopener"} score for the background / foreground color combination. As I describe later, this tool is also integrated into the WAVE Web Accessibility Evaluation Tool suite.
 
 5. The [WAVE WebAIM Accessibility Evaluation Tool](https://wave.webaim.org/){:target="_blank" rel="noopener"} provides a further detailed picture of your page's underlying structure and the impacts on accessibility. WAVE provides increased clarity to each of the highlighted potential points of improvement to the webpage it is analyzing. It is great for seeing all of the accessibility opportunities visually represented on the webpage with some steps on how to incorporate the suggestions. Additional details over this and other tools' features, as well as how to use them, are also available in the "Steps to Take in Future" section of this document.
 
-7. Now that the general accessibility of the page is determined from manual and automatic testing, and visual analysis of the page, it is time to see how many of these features all come together to impact the "sound" of a webpage. The screen reader used by a visually impaired user, and how it reads the site, will completely determine their overall experience of the page. There are many different screen readers, including JAWS and NVDA for Windows, the built-in VoiceOver for Apple and iOS, ChromeVox on Chromebooks and TalkBack for Android devices. They all accomplish the same basic functions and will interpret the structure of your webpage in similar ways. The most popular Windows screen reader is JAWS, but perhaps the most accessible (and free) screen reader for Windows is Non Visual Desktop Access (NVDA). NVDA is the screen reader I used for the Screen Reader portion of this assessment.
+7. Now that the general accessibility of the page is determined from manual and automatic testing, and visual analysis of the page, it is time to see how many of these features all come together to impact the "sound" of a webpage. The screen reader used by a visually impaired user, and how it reads the site, will completely determine their overall experience of the page. There are many different screen readers, including Job Access With Speech (JAWS) and [Non Visual Desktop Access (NVDA)](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"} for Windows, the built-in VoiceOver for Apple and iOS, ChromeVox on Chromebooks and TalkBack for Android devices. They all accomplish the same basic functions and will interpret the structure of your webpage in similar ways. The most popular Windows screen reader is JAWS, but perhaps the most accessible (and free) screen reader for Windows is NVDA. NVDA is the screen reader I used for the Screen Reader portion of this assessment.
 
 - There are many ways to assess a user's experience and these tools are just another way to improve the overall function and utility of a webpage. When it is found that there may be things that are hindering or lessening a user's experience, these acquired data are opportunities to build a more complete and inclusive digital space.
 
-## Opportunities Discovered
-- This section is broken up into various subsections and content within those subsections
-  - Within these subsections are information and discussions pertaining to the specific accessibility opportunities that were discovered
+## Opportunities Discovered and Overview
+- This section covers specific opportunities to improve the accessibility of the SCIP website. It is broken up into various subsections containing information and discussion pertaining to those opportunities within the SCIP website.
   - This includes Chrome and Firefox browsers' built-in accessibility assessments
     - Much of the changes suggested relate to some of the background and foreground color contrasts falling below standards and may cause visual issues for some users.
-    - Some heading issues are also highlighted.
+    - Some heading level issues are also highlighted.
   -  Additionally there are some other noted observations, as well as interpreted screen reader results.
 
 
 ### Found in Google Chrome Lighthouse
 - Google Chrome Lighthouse is usually my first glance to quickly get a sense of what's going on in my webpage because I don't have to go to another site, let alone another browser, since I'm viewing my webpages on google chrome. It can test for many different aspects of how a website was put together and its presentation to the user. It shares some parallels with other browsers' internal testing features.
-  - Below is an example of all that Lighthouse can scan for, not just Accessibility, with an associated score using the mobile version of the Home Page for reference.
+  - Presented below are all the scores, not just Accessibility, from the Lighthouse scan of the SCIP "Home" page.
   - ![Performance: 47, Accessibility: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](media/Tll3lEE24-clipboard.png)
-  - [View image of Lighthouse results on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Tll3lEE24-clipboard.png){:target="_blank" rel="noopener"}
+  - [View image of SCIP Lighthouse scores on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Tll3lEE24-clipboard.png){:target="_blank" rel="noopener"}
   - We will just be focusing on the Accessibility portion, but the other information is interesting to learn about and may be worth a look, however it is easy to get lost down a rabbit hole with much of the information.
+  - The accessibility score was 98.
+    - Overall, really good.
+    - But those last two points could really make a difference to someone.
+    - Also, this is an automatic scan and may not catch everything.
+    - We will investigate further
+    - Link on Lighthouse and Scoring available in "Additional Links" section
   - The performance score is most likely due to the internal functions and practices of WordPress and mostly out of your control, however making sure that the mobile versions of your pages have images that are reduced in size accordingly will also increase the performance on mobile.
 
 #### Home Page Color Contrast
-- The color contrast ratios between the text color and background color of most of the links are too low.
-- The following is a gif showing examples of the color contrast issues for the link text found in Chrome Lighthouse.
+- One of the things highlighted in the scan of the home page is the color contrast between the text color and the background color of the anchor, or link, elements
+  - The color contrast ratios of the links are too low.
+- The following is a gif that shows the color contrast issues for the link text found in Chrome Lighthouse.
   - This specific page is the home page, but the light yellow text with white background links, and sometimes the inverse, are on every page.
   - [View gif of Home page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/ECjDiXD03-Home_Accessibility_Color_Contrast.gif){:target="_blank" rel="noopener"}
 
@@ -69,13 +75,13 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 
 #### About Page Color Contrast and Heading Elements
-- For the About Page, it is also Color Contrast that is highlighted by the Lighthouse scan.
+- On the About Page, the Color Contrast is also highlighted by the Lighthouse scan.
   - [View gif of About page scan on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/GVfHXo_sh-About_Accessibility_Chrome.gif){:target="_blank" rel="noopener"}
 
 ![Lighthouse scan of about page shows the color contrasts of the links are insufficient](media/GVfHXo_sh-About_Accessibility_Chrome.gif)
 - The sequence of headings on the page is noted at the end of the above gif.
   - The second gif, found below, shows the information in the dropdown.
-  - The jump to h6 headings out of sequence in the About page is shown in the gif below. Using headings in relevant sequential order improves the clarity of the page structure.
+  - The about page jumps from h3 to h6 level headings and is out of sequence, as shown in the gif below. Using headings in relevant sequential order improves the clarity of the page structure, especially when using screen readers.
   - I also discuss the headings in further detail later in the screen reader subsection.
     - [View second gif of About page scan, relating to headings, on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif){:target="_blank" rel="noopener"}
 
@@ -109,8 +115,8 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - Firefox Inspector Accessibility Properties accomplishes many of the same functions as Chrome's built-in tester, just presenting them in a different way and with some different insight. The two can complement each other well. In the scans, the tester brought attention to many of the same things as Chrome. For this reason I only list a few with some clarified details.
 
 #### Link Text Color
-- The colors of the texts associated with links, or anchors, have the following ratio score.
-  - This score falls below WCAG standards
+- The colors of the texts associated with links, or anchors, have the ratio score of 2.04.
+  - This score falls below [WCAG standards](https://webaim.org/articles/contrast/){:target="_blank" rel="noopener"}
   - The score can be improved by adjusting the colors to have a stronger contrast
     - The colors can be found in the WordPress editor as well as the DevTools
     - Hints on how to improve the score are also mentioned in the "Steps Taken" section, as well as the "Steps to Take in Future" section in the "How To" subsection, using some of the tools discussed.
@@ -121,10 +127,11 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - These links may be hard for some users to see clearly.
 
 #### Search Bar Color Contrast
-- The following screenshot is from the score given for the color contrast ratio of the search bar at the top right of each page. As with the above link text color, this low score also indicates the content may be hard to see for some users.
+- The following screenshot is from the score given for the color contrast ratio of the search bar at the top right of each page. As with the above link text color, this low score of 2.54 also indicates the content may be hard to see for some users.
 
 - ![The search bar at the top of each page has the contrast of 2.54, falling below WCAG standards](media/c9UN6DAsu-clipboard.png)
 - [View search bar contrast ratio image on separate page - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/c9UN6DAsu-clipboard.png){:target="_blank" rel="noopener"}
+
 #### More From Firefox Inspector
 - As mentioned earlier, the inspector will show the semantic structure of the webpage. More on semantic structuring is mentioned in the Screen Readers subsection.
   - A gif of how to access this feature is shown in the "Steps to Take in Future" section, in the "How To" subsection.
@@ -135,7 +142,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### Navigation
   - Addition of Footer navigation will greatly increase ease of site navigation
-  - Addition of "Home" link in Menu / Navigation will also improved ease of traversal
+  - Addition of "Home" link in Menu / Navigation will also improve ease of traversal (I noticed the addition of a "Home" link after writing these points, but left for emphasis)
     - Not obvious that the header at the top is a link back to the home page
       - Could confuse some users
       - Best to have a "Home" link as well
@@ -144,7 +151,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 #### Keyboard Traversal
   - When moving through the site by keyboard, all the clickable elements that are interacted with by mouse, should also be navigable by keyboard. Using the tab key will progress you through the clickable elements. It is important to have an easily visible visual aid, or box, to tell where the current "focus" is on the page. Many links on the site have very subtle focus or none at all
     - Most of the links have a focus box but is quite small
-      - Also effected by low contrast but could improve with contrast issue fix
+      - Also affected by low contrast but could improve with contrast issue fix
       - Could also help to slightly increase size
     - The rounded links only have some focus
     - The dark square links on the Fellowship page have no focus at all
@@ -177,7 +184,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### Screen Readers
    - There are a few different screen readers out there that can help users navigate sites by having the content read aloud to them, as well as providing useful keyboard shortcuts, navigation tools, mouse interaction, and also braille feedback for braille devices.
-   - The screen reader used for this project is [**NVDA**](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}
+   - The screen reader used for this project is [NVDA](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}
      - Free Open Source Screen Reader on Windows
        - A great way to understand how screen readers will interact with the site
      - More info on this screen reader and others in general will be provided in the following subsections, as well as in the previous "Steps Taken" section, the upcoming "Steps to Take in Future" section, and the "Some Additional Links" section
@@ -376,14 +383,14 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - This is helpful for learning at exactly which dimensions the page "breaks" or stops looking how you want it to look and can be planned for accordingly
         - This can allow for more precise control of the look of your site as the screen dimension and orientation changes through the use of custom CSS Media Queries.
       - This feature isn't as useful currently but if further customization, or development of a new site is desired, then this feature could be helpful
-- More information about "Device Mode" and its features can be accessed in [Google's "Simulate mobile devices with Device Mode" docs](https://developer.chrome.com/docs/devtools/device-mode/#viewport){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
+- More information about "Device Mode" and its features can be accessed in [Google's "Simulate mobile devices with Device Mode" docs](https://developer.chrome.com/docs/devtools/device-mode/#viewport){:target="_blank" rel="noopener"}
 - Luckily WordPress themes come with mobile responsive versions already programmed in and can be modified to an extent
   - Additional customizations for multiple desired mobile sizes and orientations may require custom CSS integration
   - The current version of the site is still viewable on most devices as shown in the above gif
 - There is a very similar option in Firefox and easy to access once you know how to access it in Google Chrome
 
 #### Firefox Developer Tools and Accessibility
-- Below is a gif of how to access the Firefox Developer Tools and Accessibility menu on the [Mozilla Firefox Browser](https://www.mozilla.org/en-US/firefox/){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
+- Below is a gif of how to access the Firefox Developer Tools and Accessibility menu on the [Mozilla Firefox Browser](https://www.mozilla.org/en-US/firefox/){:target="_blank" rel="noopener"}
 - [View gif of Firefox Inspector and its Accessibility panel - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif){:target="_blank" rel="noopener"}
 
 ![The Accessibility panel of FireFox Inspector is accessed using the instructions below and scans can be done to check for multiple accessibility opportunities - There is also a color blindness simulator showing what the webpage looks like for viewers with various types of color blindness.](media/Mo8OzPleN-Firefox_DevTools_comp_40d.gif)
@@ -409,7 +416,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
    - The Firefox Inspector can also display a simulated view of various mobile versions of a site just like in Chrome DevTools, with a slightly different User Interface
       - Access the "Responsive Design Mode" feature at the top right of the open Inspector, shown as an image of two Mobile Devices, or rectangles, overlapping
         - It is right next to the "Customize Developer Tools and Get Help" button shown as three dots in a horizontal line
-   - More information about Firefox Developer Tools can be found in [the Firefox DevTools User Docs](https://firefox-source-docs.mozilla.org/devtools-user/#:~:text=You%20can%20open%20the%20Firefox,%2B%20Opt%20%2B%20I%20on%20macOS.){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
+   - More information about Firefox Developer Tools can be found in [the Firefox DevTools User Docs](https://firefox-source-docs.mozilla.org/devtools-user/#:~:text=You%20can%20open%20the%20Firefox,%2B%20Opt%20%2B%20I%20on%20macOS.){:target="_blank" rel="noopener"}
 
 #### WebAIM Web Accessibility Evaluation Tool
 - [WAVE](https://wave.webaim.org/) is a very effective interactive tool for checking the overall accessibility of a webpage.
@@ -417,16 +424,16 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - Has many of the same features as the browser tools, but in a better visual package and easier interaction.
 - The information is organized and presented in a very convenient and clear manner.
 - The video below provides a short demo of how to use the tool and what is displayed.
-- [WebAIM Web Accessibility Evaluation Tool Demo](https://www.loom.com/share/7e130b24e0554bf190fc92c187f4d79a){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
+- [WebAIM Web Accessibility Evaluation Tool Demo](https://www.loom.com/share/7e130b24e0554bf190fc92c187f4d79a){:target="_blank" rel="noopener"}
 
 <div style="position: relative; padding-bottom: 73.77049180327869%; height: 0;"><iframe src="https://www.loom.com/embed/7e130b24e0554bf190fc92c187f4d79a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - There is also a browser extension that can be installed to evaluate your webpage locally on your computer.
   - No need to have webpage deployed online
-  - More information and possible benefits are provided at [Wave WebAIM Extension documentation](https://wave.webaim.org/extension/){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
+  - More information and possible benefits are provided at [Wave WebAIM Extension documentation](https://wave.webaim.org/extension/){:target="_blank" rel="noopener"}
 
 #### WebAIM Contrast Checker
-- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"} is a great tool to quickly troubleshoot color combinations that will work best for your needs while still meeting WCAG contrast ratio recommendations.
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank" rel="noopener"} is a great tool to quickly troubleshoot color combinations that will work best for your needs while still meeting WCAG contrast ratio recommendations.
 - You can see a color contrast ratio in developer tools, but not as easy to use or as fleshed out.
 - The Contrast Checker tool is also built into the WAVE tool described above and can explore various color combinations directly on your webpage through the WAVE interface.
 [View gif of WebAIM Contrast Checker in use - PDF Version will open gif in default browser](https://christopher-ward.github.io/SCIP-Accessibility/media/gaPFksDYP-WebAIM_Contrast_Checker.gif){:target="_blank" rel="noopener"}
@@ -434,12 +441,12 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 ![Use WebAIM Contrast Checker tool to find foreground color and background color combination that passes WCAG standards using slider tool to incrementally change color and a color picker tool as well - provides Contrast Ratio and pass or fail WCAG AA and WCAG AAA for multiple situations considered by WCAG standards](media/gaPFksDYP-WebAIM_Contrast_Checker.gif)
 
 #### Screen Readers
-- NonVisual Desktop Access (NVDA) created by [NV Access](https://www.nvaccess.org/){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"} was the screen reader used in this report
+- NonVisual Desktop Access (NVDA) created by [NV Access](https://www.nvaccess.org/){:target="_blank" rel="noopener"} was the screen reader used in this report
   - It is showcased in the previous "Opportunities Discovered" section under the "Screen Readers" subsection, as well as mentioned in the "Steps Taken" section
     - For this reason, in-depth descriptions of the screen reader are not provided in this subsection.
   - The free, open source screen reader for Windows operating system can be downloaded from the NVDA download page
-    - [Download the NVDA Screen Reader](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}
-  - To understand and effectively utilize the reader, use this very helpful and essential [NVDA 2022.2 user guide from NV Access](https://www.nvaccess.org/files/nvda/documentation/userGuide.html){:target="_blank" rel="noopener"}{:target="_blank" rel="noopener"}.
+    - [Download the NVDA Screen Reader](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}
+  - To understand and effectively utilize the reader, use this very helpful and essential [NVDA 2022.2 user guide from NV Access](https://www.nvaccess.org/files/nvda/documentation/userGuide.html){:target="_blank" rel="noopener"}.
 - I also reference Apple's built-in assistive technology, VoiceOver, in the "Some Additional Links" section under the "Additional Screen Reader Links" subsection
   - Hopefully these links are helpful if you would like to explore this technology in an Apple product.
 - There are also other screen readers for various platforms, as mentioned in the "Steps Taken".
@@ -456,8 +463,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - [WebAIM Docs on Apple VoiceOver Screen Reader](https://webaim.org/articles/voiceover/){:target="_blank" rel="noopener"}
   - [Apple Intro to VoiceOver Screen Reader](https://www.apple.com/voiceover/info/guide/_1121.html){:target="_blank" rel="noopener"}
   - [A potentially helpful Medium Article on Apple VoiceOver Screen Reader](https://lsnrae.medium.com/how-to-use-the-voiceover-screen-reader-70699e2e0f8a){:target="_blank" rel="noopener"}
-  - [BrowserStack Tips](https://www.browserstack.com/guide/test-websites-with-screen-readers#:~:text=The%20easiest%20way%20to%20test,readers%20in%20real%20user%20conditions){:target="_blank" rel="noopener"}
+  - [Job Access With Speech (JAWS)](https://www.freedomscientific.com/products/software/jaws/){:target="_blank" rel="noopener"}
   - [WebAim JAWS Article - How To](https://webaim.org/articles/jaws/){:target="_blank" rel="noopener"}
+  - [BrowserStack Tips](https://www.browserstack.com/guide/test-websites-with-screen-readers#:~:text=The%20easiest%20way%20to%20test,readers%20in%20real%20user%20conditions){:target="_blank" rel="noopener"}
   - [Web Axe - How to Test with Screen Readers](https://www.webaxe.org/learning-how-to-test-with-screen-readers/){:target="_blank" rel="noopener"}
   - [Assistiv Labs' take on NVDA](https://assistivlabs.com/assistive-tech/screen-readers/nvda){:target="_blank" rel="noopener"}
 
@@ -470,6 +478,12 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 ### WCAG 2 Documentation
 - [Understanding WCAG conformance, starting midway down at the levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels){:target="_blank" rel="noopener"}
 - [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist){:target="_blank" rel="noopener"}
+
+### Alt Text Discussions
+- [WordPress discussion on alt text](https://make.wordpress.org/accessibility/handbook/content/alternative-text-for-images/#best-practice){:target="_blank" rel="noopener"}
+
+### Google Chrome Lighthouse
+- [Google Chrome Lighthouse Accessibility Scoring](https://web.dev/accessibility-scoring/){:target="_blank" rel="noopener"}
 
 ### Other Testing Tools
 - [W3C's Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/){:target="_blank" rel="noopener"}
