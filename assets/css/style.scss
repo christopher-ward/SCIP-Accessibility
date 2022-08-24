@@ -13,7 +13,7 @@ header p {
 
 nav {
   top: 200px;
-  left: 45%;
+  left: 47%;
   text-align: right;
   height: 70%;
   overflow-y: scroll;
@@ -21,6 +21,15 @@ nav {
 
 nav ul {
   padding-right: 15px;
+}
+
+nav li.tag-h2 {
+  font-size: 14.25px;
+}
+
+nav li.tag-h3 {
+  font-size: 11.75px;
+  font-style: italic;
 }
 
 .wrapper {
@@ -56,7 +65,7 @@ footer p a {
   }
 
   section {
-    max-width: 600px;
+    max-width: unset;
     padding: 25px;
   }
 }
