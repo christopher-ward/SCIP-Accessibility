@@ -12,10 +12,11 @@ header p {
 }
 
 nav {
-  top: 200px;
+  top: 191px;
   left: 47%;
   text-align: right;
-  height: 70%;
+  height: 656px;
+  max-height: 68.75%;
   overflow-y: scroll;
 }
 
@@ -68,4 +69,38 @@ footer p a {
     max-width: unset;
     padding: 25px;
   }
+}
+@media screen and (min-width: 950px) and (max-width: 1170px) {
+    #banner {
+        width: 100%;
+    }
+    #banner #logo {
+        margin-right: 15px;
+    }
+    nav {
+        left: 54%;
+        display: unset;
+    }
+    div.wrapper {
+        margin-right: 5%;
+    }
+    footer {
+        text-align: center;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: auto;
+    }
+}
+@media screen and (min-width: 950px) and (max-width: 1020px) {
+    nav {
+        left: 59%;
+    }
+    div.wrapper {
+        margin-right: 3%;
+    }
+    section {
+        margin-left: 50px;
+        margin-right: -10px;
+    }
 }
