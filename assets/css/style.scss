@@ -11,6 +11,11 @@ header p {
   background-color: rgb(45, 80, 123);
 }
 
+a:focus {
+  outline: 3px dotted;
+  outline-offset: 1.5px;
+}
+
 nav {
   top: 191px;
   left: 47%;
@@ -31,6 +36,17 @@ nav li.tag-h2 {
 nav li.tag-h3 {
   font-size: 11.75px;
   font-style: italic;
+}
+
+nav ul a {
+  color: #080808;
+}
+
+nav ul a:hover {
+  color: #fff7f7;
+  background-color: #313335;
+  border-radius: 3px;
+  padding: 2px;
 }
 
 .wrapper {
