@@ -200,7 +200,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - [SCIP - Screen Reader Intro](https://www.loom.com/share/e25e779e70c64b86a4472d432595e615){:target="_blank" rel="noopener"}
 
 <div style="position: relative; padding-bottom: 72.12885154061624%; height: 0;"><iframe src="https://www.loom.com/embed/e25e779e70c64b86a4472d432595e615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-  
+- The first video below is a full reading of the Home page
+- Subsequent videos will stop the screen reader routinely and not read the whole page
+
 #### Home / Landing Page
 - The video below provides a Full Read of the Home Page as described in the intro video. **Caution**, the Screen Reader starts at **0:13** and will be **much louder** than my voice at the beginning.
   - [Home Page Full Screen Reading (NVDA) [**LOUD after 0:13**]](https://www.loom.com/share/0f793793c6f74cb496855693a1aeaf17){:target="_blank" rel="noopener"}
