@@ -24,7 +24,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 1. The first set of tools I go to are the Developer Tools, available in every major desktop/laptop browser.
     1. I can use these tools to get a clearer picture of how a browser is showing my site by seeing the overall structure of the site, any styling that is being applied, and any programming associated with the site.
     2. I can also see any accessibility opportunities that the browser may have noticed.
-    3. Descriptions on how to find these tools and how to use them are provided in "Steps to Take in Future" section of this document.
+    3. Descriptions on how to find these tools and how to use them are provided in the "Steps to Take in Future" section of this document.
 2. Next I will go to the Lighthouse feature in the Chrome DevTools to check the browsers accessibility assessment of the page. I will do this for each page, in Desktop and Mobile simulated views.
 
 3. I usually start in Chrome and then go to Firefox to utilize the Firefox Inspector's Accessibility checker to get another view from a different browser. The interface for the accessibility checker is also very helpful in Firefox. The Accessibility Properties of the Firefox Inspector tool shows the structure of the webpage through its semantic roles and how they relate. It also can check the font contrasts, keyboard navigability, and text label clarity of a webpage. It also can simulate various forms of color blindness and how users with those types of vision may see the content of the page. There are multiple built in tools in the browser to get an initial understanding of how accessible your pages are to other users.
@@ -37,7 +37,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 - There are many ways to assess a user's experience and these tools are just another way to improve the overall function and utility of a webpage. When it is found that there may be things that are hindering or lessening a user's experience, these acquired data are opportunities to build a more complete and inclusive digital space.
 
-## Opportunities Discovered and Overview
+## Opportunities Discovered Overview
 - This section covers specific opportunities to improve the accessibility of the SCIP website. It is broken up into various subsections containing information and discussion pertaining to those opportunities within the SCIP website.
   - This includes Chrome and Firefox browsers' built-in accessibility assessments
     - Much of the changes suggested relate to some of the background and foreground color contrasts falling below standards and may cause visual issues for some users.
@@ -45,7 +45,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   -  Additionally there are some other noted observations, as well as interpreted screen reader results.
 
 
-### Found in Google Chrome Lighthouse
+## Google Chrome Lighthouse Opportunities
 - Google Chrome Lighthouse is usually my first glance to quickly get a sense of what's going on in my webpage because I don't have to go to another site, let alone another browser, since I'm viewing my webpages on google chrome. It can test for many different aspects of how a website was put together and its presentation to the user. It shares some parallels with other browsers' internal testing features.
   - Presented below are all the scores, not just Accessibility, from the Lighthouse scan of the SCIP "Home" page.
   - ![Performance: 47, Accessibility: 98, Best Practices: 92, SEO: 86, PWA: Not Available. The scores are out of 100.](media/Tll3lEE24-clipboard.png)
@@ -59,7 +59,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - Link on Lighthouse and Scoring available in "Additional Links" section
   - The performance score is most likely due to the internal functions and practices of WordPress and mostly out of your control, however making sure that the mobile versions of your pages have images that are reduced in size accordingly will also increase the performance on mobile.
 
-#### Home Page Color Contrast
+### Home Page Color Contrast
 - One of the things highlighted in the scan of the home page is the color contrast between the text color and the background color of the anchor, or link, elements
   - The color contrast ratios of the links are too low.
 - The following is a gif that shows the color contrast issues for the link text found in Chrome Lighthouse.
@@ -74,7 +74,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 ![The scan shows the contrasts of the links on the mobile version of the home page are insufficient, since they are the same](media/hgbGShFAK-Home_Accessibility_Color_Contrast_Mobile.gif)
 
 
-#### About Page Color Contrast and Heading Elements
+### About Page Color Contrast and Heading Elements
 - On the About Page, the Color Contrast is also highlighted by the Lighthouse scan.
   - [View gif of About page scan in separate tab](https://christopher-ward.github.io/SCIP-Accessibility/media/GVfHXo_sh-About_Accessibility_Chrome.gif){:target="_blank" rel="noopener"}
 
@@ -87,7 +87,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ![Second half of scan results of about page show the heading elements are not in sequential order](media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif)
 
-#### Research Page
+### Research Page
 - The Research Page in Mobile view has results similar to the desktop view, so I am only showing the mobile version results for sake of brevity.
 - The color contrast is only mentioned for the menu button because it is hiding the other nav links that are shown when the button is touched
   - The below gif shows just the contrast mentioned
@@ -104,35 +104,35 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - There is also the matter of whether this should even be a heading
   - I talk about this specific situation in the screen reader section as part of the research page discussion
 
-#### Fellowship Page
+### Fellowship Page
   - The Fellowship page generally had the same highlights in regards to the links' color contrasts as previously noted from scans of previous pages.
     - The below gif shows the nav bar and 'apply now' button contrast warnings
     - [View gif of Fellowship page scan in separate tab](https://christopher-ward.github.io/SCIP-Accessibility/media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif){:target="_blank" rel="noopener"}
 
 ![The Fellowship page scan highlights the same insufficient color contrasts as previous pages](media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif)
 
-### Found in Firefox Inspector
+## Firefox Inspector Opportunities
 - Firefox Inspector Accessibility Properties accomplishes many of the same functions as Chrome's built-in tester, just presenting them in a different way and with some different insight. The two can complement each other well. In the scans, the tester brought attention to many of the same things as Chrome. For this reason I only list a few with some clarified details.
 
-#### Link Text Color
-- The colors of the texts associated with links, or anchors, have the ratio score of 2.04.
+### Link Text Color
+- The colors of the texts associated with links, or anchors, have a ratio score of 2.04.
   - This score falls below [WCAG standards](https://webaim.org/articles/contrast/){:target="_blank" rel="noopener"}
   - The score can be improved by adjusting the colors to have a stronger contrast
     - The colors can be found in the WordPress editor as well as the DevTools
     - Hints on how to improve the score are also mentioned in the "Steps Taken" section, as well as the "Steps to Take in Future" section, using some of the tools discussed.
 
-- ![The links on every page with the specific shade of yellow text foreground and white background had the color contrast ratio of 2.04. This falls below WCAG standards](media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
+- ![The links on every page with the specific shade of yellow text foreground and white background have the color contrast ratio of 2.04. This falls below WCAG standards](media/5aMSHvSPi-Link_Text_Color_Contrast.PNG)
 - [View link contrast ratio image in separate tab](https://christopher-ward.github.io/SCIP-Accessibility/media/5aMSHvSPi-Link_Text_Color_Contrast.PNG){:target="_blank" rel="noopener"}
-- The few links with the inverse of these foreground and background colors, for example the "Apply Now..." link at the top of the Fellowship page, also have an identical ratio of 2.04 but is not shown here.
+- The few links with the inverse of these foreground and background colors, for example the "Apply Now..." link at the top of the Fellowship page, also have an identical ratio of 2.04 but not shown here.
 - These links may be hard for some users to see clearly.
 
-#### Search Bar Color Contrast
+### Search Bar Color Contrast
 - The following screenshot is from the score given for the color contrast ratio of the search bar at the top right of each page. As with the above link text color, this low score of 2.54 also indicates the content may be hard to see for some users.
 
 - ![The search bar at the top of each page has the contrast of 2.54, falling below WCAG standards](media/c9UN6DAsu-clipboard.png)
 - [View search bar contrast ratio image in separate tab](https://christopher-ward.github.io/SCIP-Accessibility/media/c9UN6DAsu-clipboard.png){:target="_blank" rel="noopener"}
 
-#### More From Firefox Inspector
+### More From Firefox Inspector
 - As mentioned earlier, the inspector will show the semantic structure of the webpage. More on semantic structuring is mentioned in the Screen Readers subsection.
   - A gif of how to access this feature is shown in the "Steps to Take in Future" section.
 - Text labels, or alt text, for programmatic functions, figures or images are necessary for visually impaired individuals.
@@ -140,7 +140,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
   - When an image contains key information for the viewer, determine if concise alt text should be applied to the image properties for screen readers to relay important information to the user
     - Note that this text will also be displayed if the image fails to load for some reason
 
-### Navigation
+## Navigation Opportunities
   - Addition of Footer navigation will greatly increase ease of site navigation
   - Addition of "Home" link in Menu / Navigation will also improve ease of traversal (I noticed the addition of a "Home" link after writing these points, but left for emphasis)
     - Not obvious that the header at the top is a link back to the home page
@@ -148,7 +148,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - Best to have a "Home" link as well
         - Even if the "Home" page is meant as a landing page and may have information that repeats, it still may be helpful to have a "Home" just for clarity's sake
 
-#### Keyboard Traversal
+### Keyboard Traversal
   - When moving through the site by keyboard, all the clickable elements that are interacted with by mouse, should also be navigable by keyboard. Using the tab key will progress you through the clickable elements. It is important to have an easily visible visual aid, or box, to tell where the current "focus" is on the page. Many links on the site have very subtle focus or none at all
     - Most of the links have a focus box but is quite small
       - Also affected by low contrast but could improve with contrast issue fix
@@ -182,7 +182,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - Here is [the MDN web docs information on headings and accessibility related to their ordering](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#accessibility_concerns){:target="_blank" rel="noopener"}
     - I discuss headings in the screen reader videos in the next section as well, but hopefully the above links can also be helpful and serve as another reference to help navigate heading use
 
-### Screen Readers
+## Screen Reader Opportunities
    - There are a few different screen readers out there that can help users navigate sites by having the content read aloud to them, as well as providing useful keyboard shortcuts, navigation tools, mouse interaction, and also braille feedback for braille devices.
    - The screen reader used for this project is [NVDA](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}
      - Free Open Source Screen Reader on Windows
@@ -194,7 +194,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
      - The subsequent videos will focus on individual opportunities highlighted by the screen reader
        - The videos also include some recommendations to help improve the user experience
 
-#### Screen Reader Introduction Video
+### Screen Reader Introduction Video
 - I created a quick intro video to describe how the screen reader is used and what to look for and consider.
   - This video can be found below
   - [SCIP - Screen Reader Intro](https://www.loom.com/share/e25e779e70c64b86a4472d432595e615){:target="_blank" rel="noopener"}
@@ -203,7 +203,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - The first video below is a full reading of the Home page
 - Subsequent videos will stop the screen reader routinely and not read the whole page
 
-#### Home / Landing Page
+### Home / Landing Page
 - The video below provides a Full Read of the Home Page as described in the intro video. **Caution**, the Screen Reader starts at **0:13** and will be **much louder** than my voice at the beginning.
   - [Home Page Full Screen Reading (NVDA) [**LOUD after 0:13**]](https://www.loom.com/share/0f793793c6f74cb496855693a1aeaf17){:target="_blank" rel="noopener"}
 
@@ -213,7 +213,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 - I had previously made a video talking about the benefits of adding a “Home” button to the navigation bar, but noticed that it has already been added since I started.
     - Adding a "Home" link in the navigation bar was definitely a good choice to benefit all users
 
-#### About Page
+### About Page
 - The video below will include discussion of headings on the About page and the screen reader’s interaction with them.
   - [SCIP – About Page - Headings Discussion [**LOUD after 0:07**]](https://www.loom.com/share/e6c7574c900f4c69940a26912b7f655a){:target="_blank" rel="noopener"}
 
@@ -225,7 +225,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
       - The heading level jumps from h3 to h6 and may be confusing to screen reader users.
         - Screen readers read aloud the type of element and this reads as "h3 [name of team member]" and then "h6 [title of team member]". This may be confusing
 
-#### Research Page
+### Research Page
 - The discussion about the Screen Readers interpretation of the Research Page and some potential enhancements can be found in the following video
   - [SCIP - Research Page - Headings and Information Sectioning](https://www.loom.com/share/cdaebdc934e5449dbff6b4288580566a){:target="_blank" rel="noopener"}
 
@@ -242,7 +242,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
           - It helps screen reader users
             - Also improves flow of webpage
 
-#### Fellowship Page
+### Fellowship Page
 - The video below contains discussion about the Fellowship Page screen reading experience and potential opportunities for enhancement
   - [SCIP - Fellowship Page - Heading Structure](https://www.loom.com/share/dc002c9fdd9f4982b798796534d4fb69){:target="_blank" rel="noopener"}
 
@@ -256,7 +256,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
         - Can keep bolded and slightly increase size
           - Will help group the information better and improve page flow for all users
 
-#### Footer Navigation
+### Footer Navigation
 - The video below features a discussion about the potential benefits of adding a Footer Navigation
   - [SCIP - Footer Discussion](https://www.loom.com/share/68ea61809a1345738bc987f0ee1d7595){:target="_blank" rel="noopener"}
 
@@ -283,7 +283,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - Users of all types, including screen reader users would benefit
 
 
-### Accessibility Statement
+## Accessibility Statement Opportunity
   - Accessibility Statements are something that is becoming more common in sites with high user traffic and interaction.
   - These statements put forth as a recognition and consideration of the diverse needs of users
     - Accessibility statements act as a sort of pledge to build and maintain sites that are sensitive to the needs of their users
@@ -294,7 +294,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - There are many resources available online to give you a good idea as to how best structure your own Accessibility Statement
       - A good place to start is [W3C Web Accessibility Initiative's "Developing an Accessibility Statement"](https://www.w3.org/WAI/planning/statements/){:target="_blank" rel="noopener"}
 
-### Opportunities Discovered Conclusion
+## Opportunities Discovered Conclusion
  - What we saw:
    - Results from the Chrome Lighthouse tool
      - Color Contrast for links should be addressed
@@ -443,7 +443,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### Screen Readers
 - NonVisual Desktop Access (NVDA) created by [NV Access](https://www.nvaccess.org/){:target="_blank" rel="noopener"} was the screen reader used in this report
-  - It is showcased in the previous "Opportunities Discovered" section under the "Screen Readers" subsection, as well as mentioned in the "Steps Taken" section
+  - It is showcased in the previous "Screen Reader Opportunities" section, as well as mentioned in the "Steps Taken" section
     - For this reason, in-depth descriptions of the screen reader are not provided in this subsection.
   - The free, open source screen reader for Windows operating system can be downloaded from the NVDA download page
     - [Download the NVDA Screen Reader](https://www.nvaccess.org/download/){:target="_blank" rel="noopener"}
@@ -502,6 +502,9 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
     - There are deals that seem good for educators however
     - No I am not sponsored by them, I just found it to be quite handy
   - You can learn more about Loom at [Loom's support docs on "What is Loom?"](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-){:target="_blank" rel="noopener"}
+
+### Report as a Webpage
+- The presentation of this report via webpage format was enabled through a combination of [Markdown](https://www.markdownguide.org/){:target="_blank" rel="noopener"}, [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener"}, Jekyl theme [Leap Day](https://github.com/pages-themes/leap-day){:target="_blank" rel="noopener"} (through the GitHub Pages theme selection), and custom CSS styling.
 
 
 ## In Conclusion
