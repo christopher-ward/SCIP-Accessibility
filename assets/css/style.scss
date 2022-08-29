@@ -11,6 +11,10 @@ header p {
   background-color: rgb(45, 80, 123);
 }
 
+#banner .button {
+  display: none;
+}
+
 h3, h4 {
   color: #565656;
 }
@@ -79,13 +83,7 @@ section {
 }
 
 footer {
-  margin-left: 385px;
-  text-align: left;
-}
-
-footer p a {
-  color: #25476A;
-  background-color: #ECEADA;
+  display: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -119,13 +117,6 @@ footer p a {
     }
     div.wrapper {
         margin-right: 5%;
-    }
-    footer {
-        text-align: center;
-        position: relative;
-        left: auto;
-        bottom: auto;
-        width: auto;
     }
 }
 @media screen and (min-width: 950px) and (max-width: 1020px) {
