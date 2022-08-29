@@ -505,7 +505,7 @@ To evaluate how accessibile a website is, there are a few methods I can utilize.
 
 ### Report as a Webpage
 - The presentation of this report via webpage format was enabled through a combination of [Markdown](https://www.markdownguide.org/){:target="_blank" rel="noopener"}, [GitHub Pages](https://pages.github.com/){:target="_blank" rel="noopener"}, Jekyl theme [Leap Day](https://github.com/pages-themes/leap-day){:target="_blank" rel="noopener"} (through the GitHub Pages theme selection), and custom CSS styling.
-
+  - This whole process could be its own tutorial and was very enlightening
 
 ## In Conclusion
 Now that you've made it all the way through this document, or jumped around in whatever order best suited your needs, my sincere hope is that you find yourself more informed on the many facets of a website's overall accessibility. And, additionally, that you find yourself more capable to continuously act as the first line of defense in maintaining an inclusive and considerate user experience for your website.

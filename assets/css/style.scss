@@ -15,8 +15,13 @@ header p {
   display: none;
 }
 
+h2 {
+  margin-top: 25px;
+}
+
 h3, h4 {
   color: #565656;
+  margin-top: 15px;
 }
 
 a:focus {
@@ -26,6 +31,7 @@ a:focus {
 
 section ul {
   list-style-image: unset;
+  margin-bottom: 5px;
 }
 
 section ul li::marker {
