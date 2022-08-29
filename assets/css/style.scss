@@ -11,9 +11,29 @@ header p {
   background-color: rgb(45, 80, 123);
 }
 
+h3, h4 {
+  color: #565656;
+}
+
 a:focus {
   outline: 3px dotted;
   outline-offset: 1.5px;
+}
+
+section ul {
+  list-style-image: unset;
+}
+
+section ul li::marker {
+  color: #2d507b;
+}
+
+section a {
+  color: #4243b6;
+}
+
+section a:hover, section a:active {
+  text-decoration: underline;
 }
 
 nav {
