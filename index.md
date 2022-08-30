@@ -464,11 +464,11 @@ There are many ways to assess a user's experience and these tools are just anoth
   - [WebAIM Docs on Apple VoiceOver Screen Reader](https://webaim.org/articles/voiceover/){:target="_blank" rel="noopener"}
   - [Apple Intro to VoiceOver Screen Reader](https://www.apple.com/voiceover/info/guide/_1121.html){:target="_blank" rel="noopener"}
   - [A potentially helpful Medium Article on Apple VoiceOver Screen Reader](https://lsnrae.medium.com/how-to-use-the-voiceover-screen-reader-70699e2e0f8a){:target="_blank" rel="noopener"}
-  - [Job Access With Speech (JAWS)](https://www.freedomscientific.com/products/software/jaws/){:target="_blank" rel="noopener"}
+- [Job Access With Speech (JAWS)](https://www.freedomscientific.com/products/software/jaws/){:target="_blank" rel="noopener"}
   - [WebAim JAWS Article - How To](https://webaim.org/articles/jaws/){:target="_blank" rel="noopener"}
-  - [BrowserStack Tips](https://www.browserstack.com/guide/test-websites-with-screen-readers#:~:text=The%20easiest%20way%20to%20test,readers%20in%20real%20user%20conditions){:target="_blank" rel="noopener"}
-  - [Web Axe - How to Test with Screen Readers](https://www.webaxe.org/learning-how-to-test-with-screen-readers/){:target="_blank" rel="noopener"}
-  - [Assistiv Labs' take on NVDA](https://assistivlabs.com/assistive-tech/screen-readers/nvda){:target="_blank" rel="noopener"}
+- [BrowserStack Tips](https://www.browserstack.com/guide/test-websites-with-screen-readers#:~:text=The%20easiest%20way%20to%20test,readers%20in%20real%20user%20conditions){:target="_blank" rel="noopener"}
+- [Web Axe - How to Test with Screen Readers](https://www.webaxe.org/learning-how-to-test-with-screen-readers/){:target="_blank" rel="noopener"}
+- [Assistiv Labs' take on NVDA](https://assistivlabs.com/assistive-tech/screen-readers/nvda){:target="_blank" rel="noopener"}
 
 ### Heading Links from Before
 - [W3C's explanation of headings](https://www.w3.org/WAI/tutorials/page-structure/headings/){:target="_blank" rel="noopener"}
@@ -479,6 +479,17 @@ There are many ways to assess a user's experience and these tools are just anoth
 ### WCAG 2 Documentation
 - [Understanding WCAG conformance, starting midway down at the levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels){:target="_blank" rel="noopener"}
 - [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist){:target="_blank" rel="noopener"}
+
+### Accessible Rich Internet Applications (ARIA)
+- ARIA wasn't mentioned in this report because WordPress already applies various ARIA tools in their elements
+  - It is also usually preferred to use a semantic HTML element, when possible, that will achieve same result as adding ARIA roles or attributes
+  - With greater webpage complexity may come an increased need to better understand ARIA roles and attributes
+- [MDN Web Docs explanation of ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA){:target="_blank" rel="noopener"}
+  - (https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+- [What the Heck is ARIA?](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility){:target="_blank" rel="noopener"}
+- [W3's 'ARIA in HTML'](https://www.w3.org/TR/html-aria/){:target="_blank" rel="noopener"}
+- [Google's web.dev Introduction to ARIA](https://web.dev/semantics-aria/){:target="_blank" rel="noopener"}
+
 
 ### Alt Text Discussions
 - [WordPress discussion on alt text](https://make.wordpress.org/accessibility/handbook/content/alternative-text-for-images/#best-practice){:target="_blank" rel="noopener"}
