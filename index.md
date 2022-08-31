@@ -502,6 +502,9 @@ There are many ways to assess a user's experience and these tools are just anoth
 - [Mobile simulator - responsive testing tool](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk){:target="_blank" rel="noopener"}
 - [Remote debug Android devices](https://developer.chrome.com/docs/devtools/remote-debugging/){:target="_blank" rel="noopener"}
 
+### Firefox Docs
+- [Firefox Accessibility Inspector Docs](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/){:target="_blank" rel="noopener"}
+
 ### Firefox Browser Developer Edition
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/){:target="_blank" rel="noopener"}
 
