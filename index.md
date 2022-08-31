@@ -87,7 +87,7 @@ There are many ways to assess a user's experience and these tools are just anoth
 
 ![Second half of scan results of about page show the heading elements are not in sequential order](media/B0MQfzz5I-About_Accessibility_Header_Order_Desktop_Chrome.gif)
 
-### Research Page
+### Research Page in Lighthouse
 - The Research Page in Mobile view has results similar to the desktop view, so I am only showing the mobile version results for sake of brevity.
 - The color contrast is only mentioned for the menu button because it is hiding the other nav links that are shown when the button is touched
   - The below gif shows just the contrast mentioned
@@ -104,7 +104,7 @@ There are many ways to assess a user's experience and these tools are just anoth
   - There is also the matter of whether this should even be a heading
   - I talk about this specific situation in the screen reader section as part of the research page discussion
 
-### Fellowship Page
+### Fellowship Page in Lighthouse
   - The Fellowship page generally had the same highlights in regards to the links' color contrasts as previously noted from scans of previous pages.
     - The below gif shows the nav bar and 'apply now' button contrast warnings
     - [View gif of Fellowship page scan in separate tab](https://christopher-ward.github.io/SCIP-Accessibility/media/seL9iyas4-Fellowship_Access_Contrast_Chrome_Desktop.gif){:target="_blank" rel="noopener"}
@@ -203,7 +203,7 @@ There are many ways to assess a user's experience and these tools are just anoth
 - The first video below is a full reading of the Home page
 - Subsequent videos will stop the screen reader routinely and not read the whole page
 
-### Home / Landing Page
+### Home / Landing Page Screen Read
 - The video below provides a Full Read of the Home Page as described in the intro video. **Caution**, the Screen Reader starts at **0:13** and will be **much louder** than my voice at the beginning.
   - [Home Page Full Screen Reading (NVDA) [**LOUD after 0:13**]](https://www.loom.com/share/0f793793c6f74cb496855693a1aeaf17){:target="_blank" rel="noopener"}
 
@@ -213,7 +213,7 @@ There are many ways to assess a user's experience and these tools are just anoth
 - I had previously made a video talking about the benefits of adding a “Home” button to the navigation bar, but noticed that it has already been added since I started.
     - Adding a "Home" link in the navigation bar was definitely a good choice to benefit all users
 
-### About Page
+### About Page Screen Read
 - The video below will include discussion of headings on the About page and the screen reader’s interaction with them.
   - [SCIP – About Page - Headings Discussion [**LOUD after 0:07**]](https://www.loom.com/share/e6c7574c900f4c69940a26912b7f655a){:target="_blank" rel="noopener"}
 
@@ -225,7 +225,7 @@ There are many ways to assess a user's experience and these tools are just anoth
       - The heading level jumps from h3 to h6 and may be confusing to screen reader users.
         - Screen readers read aloud the type of element and this reads as "h3 [name of team member]" and then "h6 [title of team member]". This may be confusing
 
-### Research Page
+### Research Page Screen Read
 - The discussion about the Screen Readers interpretation of the Research Page and some potential enhancements can be found in the following video
   - [SCIP - Research Page - Headings and Information Sectioning](https://www.loom.com/share/cdaebdc934e5449dbff6b4288580566a){:target="_blank" rel="noopener"}
 
@@ -242,7 +242,7 @@ There are many ways to assess a user's experience and these tools are just anoth
           - It helps screen reader users
             - Also improves flow of webpage
 
-### Fellowship Page
+### Fellowship Page Screen Read
 - The video below contains discussion about the Fellowship Page screen reading experience and potential opportunities for enhancement
   - [SCIP - Fellowship Page - Heading Structure](https://www.loom.com/share/dc002c9fdd9f4982b798796534d4fb69){:target="_blank" rel="noopener"}
 
